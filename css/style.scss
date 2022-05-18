@@ -69,8 +69,8 @@ body {
 		text-transform: uppercase;
 		font-size: 18px;
 		line-height: 1.16;
-		padding-bottom: 5px;		
-		transition: all .5s;
+		padding-bottom: 5px;
+		transition: all 0.5s;
 		border-bottom: 1px solid transparent;
 		&:hover {
 			border-bottom: 1px solid #fefefe;
@@ -80,4 +80,95 @@ body {
 .phone {
 	font-size: 18px;
 	line-height: 1.16;
+}
+//-----------------
+
+.top {
+	/* .top__container */
+
+	&__container {
+	}
+
+	/* .top__heading */
+
+	&__heading {
+		display: flex;
+		padding: 52px 0px 30px 0px;
+	}
+
+	/* .top__content */
+
+	&__content {
+		text-align: center;
+		padding: 89px 0px 0px 0px;
+		width: 50%;
+	}
+
+	/* .top__title */
+
+	&__title {
+		font-family: "Fira Sans", sans-serif;
+		font-weight: 500;
+		font-size: 48px;
+		line-height: 1.2;
+		margin: 0px auto 20px;
+		max-width: 455px;
+
+		// width: 50%;
+	}
+
+	/* .top__text */
+
+	&__text {
+		font-size: 24px;
+		line-height: 1.16;
+		margin: 0px auto 63px;
+		max-width: 470px;
+	}
+
+	/* .top__link */
+
+	&__link {
+	}
+
+	/* .top__slider */
+
+	&__slider {
+		width: 50%;
+		.slick-dots {
+			position: absolute;
+			right: 0;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	}
+}
+.slick-dots {
+	text-align: center;
+	button {
+		font-size: 0;
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		background: #332208;
+	}
+}
+.slick-active {
+	button {
+		width: 16px;
+		height: 16px;
+	}
+}
+.aplication-btn {
+	padding: 16px 19px;
+	background: #C5AC2D;
+	text-transform: uppercase;
+	color: #fefefe;
+	transition: all 0.5s;
+	border: 1px solid transparent;
+	&:hover {
+		color:#C5AC2D;
+		background: #fefefe;
+		border: 1px solid #C5AC2D;
+	}
 }
