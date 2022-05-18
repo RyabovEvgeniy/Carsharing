@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&family=Roboto&family=Roboto+Condensed&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&family=Roboto&family=Roboto+Condensed&display=swap");
 
 //Обнуляющий стиль
 @import "_null";
 
-body{
-	font-family: 'Roboto Condensed', sans-serif;
+body {
+	font-family: "Roboto Condensed", sans-serif;
+	color: #1b1818;
+	font-size: 16px;
+	line-height: 1.18;
 }
 .wrapper {
 	min-height: 100%;
@@ -12,5 +15,69 @@ body{
 	display: flex;
 	flex-direction: column;
 }
+.main {
+	flex: 1 1 auto;
+}
 
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
 
+.header {
+	background: #332208;
+	color: #fefefe;
+	// min-height: 100px;
+
+	/* .header__container */
+
+	&__container {
+	}
+
+	/* .header__inner */
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		min-height: 100px;
+	}
+}
+.logo {
+	/* .logo__link */
+
+	&__link {
+	}
+}
+.menu {
+	/* .menu__list */
+
+	&__list {
+		display: flex;
+		column-gap: 30px;
+	}
+
+	/* .menu__item */
+
+	&__item {
+	}
+
+	/* .menu__list-link */
+
+	&__list-link {
+		text-transform: uppercase;
+		font-size: 18px;
+		line-height: 1.16;
+		padding-bottom: 5px;		
+		transition: all .5s;
+		border-bottom: 1px solid transparent;
+		&:hover {
+			border-bottom: 1px solid #fefefe;
+		}
+	}
+}
+.phone {
+	font-size: 18px;
+	line-height: 1.16;
+}
