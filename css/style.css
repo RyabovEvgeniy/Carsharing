@@ -146,6 +146,13 @@ body {
   /* .top__text */
   /* .top__link */
   /* .top__slider */
+  /* .top__bottom */
+  /* .top__items */
+  /* .top__item */
+  /* .top__item-img */
+  /* .top__item-text */
+  /* .top__links */
+  /* .top__link */
 }
 
 .top__heading {
@@ -199,6 +206,57 @@ body {
 
 .top__slider-text span + span {
   padding: 0px 0px 0px 12px;
+}
+
+.top__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top__items {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.top__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  border: 1px solid #1b1818;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.top__item:hover {
+  -webkit-transform: scale(1.25);
+      -ms-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+.top__links {
+  width: 50%;
 }
 
 .slick-dots {
