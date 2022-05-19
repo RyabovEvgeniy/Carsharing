@@ -190,6 +190,17 @@ body {
           transform: translateY(-50%);
 }
 
+.top__slider-text {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  padding: 0px 100px 0px 0px;
+  text-align: right;
+}
+
+.top__slider-text span + span {
+  padding: 0px 0px 0px 12px;
+}
+
 .slick-dots {
   text-align: center;
 }
@@ -209,7 +220,7 @@ body {
 
 .aplication-btn {
   padding: 16px 19px;
-  background: #C5AC2D;
+  background: #c5ac2d;
   text-transform: uppercase;
   color: #fefefe;
   -webkit-transition: all 0.5s;
@@ -219,7 +230,7 @@ body {
 }
 
 .aplication-btn:hover {
-  color: #C5AC2D;
+  color: #c5ac2d;
   background: #fefefe;
-  border: 1px solid #C5AC2D;
+  border: 1px solid #c5ac2d;
 }
