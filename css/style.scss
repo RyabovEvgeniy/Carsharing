@@ -126,11 +126,6 @@ body {
 		max-width: 470px;
 	}
 
-	/* .top__link */
-
-	&__link {
-	}
-
 	/* .top__slider */
 
 	&__slider {
@@ -156,6 +151,8 @@ body {
 
 	&__bottom {
 		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
 	}
 
 	/* .top__items */
@@ -199,12 +196,16 @@ body {
 	/* .top__links */
 
 	&__links {
-		width: 50%;
+		padding: 0px 80px 0px 0px;
 	}
 
 	/* .top__link */
 
 	&__link {
+		border-bottom: 1px solid #1b1818;
+		&:not(:last-child) {
+			margin: 0px 20px 0px 0px;
+		}
 	}
 }
 
