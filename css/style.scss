@@ -173,7 +173,7 @@ body {
 		padding: 10px;
 		width: 150px;
 		height: 150px;
-		transition: all .5s;
+		transition: all 0.5s;
 		cursor: pointer;
 		&:hover {
 			transform: scale(1.25);
@@ -223,6 +223,7 @@ body {
 	}
 }
 .aplication-btn {
+	display: inline-block;
 	padding: 16px 19px;
 	background: #c5ac2d;
 	text-transform: uppercase;
@@ -233,5 +234,91 @@ body {
 		color: #c5ac2d;
 		background: #fefefe;
 		border: 1px solid #c5ac2d;
+	}
+}
+
+.rent {
+	padding: 100px 0px;
+
+	/* .rent__container */
+
+	&__container {
+	}
+
+	/* .rent__inner */
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	/* .rent__content */
+
+	&__content {
+		max-width: 300px;
+		// display: flex;
+		// flex-direction: column;
+	}
+
+	/* .rent__title */
+
+	&__title {
+		font-family: "Fira Sans", sans-serif;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 1.2;
+		margin: 0px 0px 30px 0px;
+	}
+
+	/* .rent__text */
+
+	&__text {
+		margin: 0px 0px 20px 0px;
+		
+	}
+	&__text + &__text {
+		margin: 0px 0px 40px 0px;
+	}
+
+	/* .rent__item */
+
+	&__item {
+		max-width: 250px;
+		min-height: 350px;
+		border: 1px solid #332208;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		padding: 0px 35px 40px;		
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	/* .rent__item-num */
+
+	&__item-num {
+		font-family: "Fira Sans", sans-serif;
+		font-weight: 500;
+		font-size: 96px;
+		line-height: 1.19;		
+		opacity: 0.1;		
+	}
+
+	/* .rent__item-title */
+
+	&__item-title {
+		font-family: "Fira Sans", sans-serif;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 1.22;
+		margin-bottom: auto;
+
+	}
+
+	/* .rent__item-text */
+
+	&__item-text {
+		
+
 	}
 }
