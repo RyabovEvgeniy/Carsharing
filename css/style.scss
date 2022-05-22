@@ -293,6 +293,11 @@ body {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
+		transition: all 0.5s;
+		cursor: pointer;
+		&:hover {
+			transform: scale(1.25);
+		}
 	}
 
 	/* .rent__item-num */
