@@ -366,24 +366,27 @@ body {
 		text-align: right;
 		&:not(:last-child) {
 			margin: 0px 0px 27px 0px;
-		}		
+		}
 		&::after {
-			content: '';
+			content: "";
 			position: absolute;
 			width: 16px;
 			height: 16px;
 			border-radius: 50%;
 			right: 0;
 			top: 2px;
-			background-color: #000;			
+			background-color: #000;
 		}
-		&:nth-child(1),&:nth-child(7) {
+		&:nth-child(1),
+		&:nth-child(7) {
 			margin-right: 13px;
 		}
-		&:nth-child(2),&:nth-child(6) {
+		&:nth-child(2),
+		&:nth-child(6) {
 			margin-right: 60px;
 		}
-		&:nth-child(3),&:nth-child(5) {
+		&:nth-child(3),
+		&:nth-child(5) {
 			margin-right: 112px;
 		}
 		&:nth-child(4) {
@@ -406,7 +409,7 @@ body {
 	/* .benefits__text */
 
 	&__text {
-		margin: 0px 0px 30px 0px;		
+		margin: 0px 0px 30px 0px;
 	}
 
 	&__text + &__text {
@@ -431,12 +434,64 @@ body {
 		border: 1px solid #c5ac2d;
 	}
 	&::after {
-		content: '';
+		content: "";
 		width: 25px;
 		height: 25px;
 		position: absolute;
 		background-image: url(../images/video-btn.svg);
 		top: 12px;
 		left: 34px;
+	}
+}
+
+.reviews {
+	padding: 100px 0;
+	background: #332208;
+	color: #fefefe;
+
+	/* .reviews__container */
+
+	&__container {
+	}
+
+	/* .reviews__title */
+
+	&__title {
+		font-family: "Fira Sans";
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 1.2;
+		margin: 0px 0px 70px 0px;
+	}
+
+	/* .reviews__slider */
+
+	&__slider {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	/* .reviews__item */
+
+	&__item {
+		padding: 46px 30px;
+		border: 1px solid #C5AC2D;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+max-width: 270px;
+	}
+
+	/* .reviews__item-name */
+
+	&__item-name {
+		font-family: "Fira Sans";
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 1.2;
+		margin: 0px 0px 47px 0px;
+	}
+
+	/* .reviews__text */
+
+	&__text {
 	}
 }

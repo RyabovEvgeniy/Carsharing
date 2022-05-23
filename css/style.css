@@ -443,7 +443,7 @@ body {
 }
 
 .benefits__list-item::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 16px;
   height: 16px;
@@ -505,11 +505,56 @@ body {
 }
 
 .video-popup::after {
-  content: '';
+  content: "";
   width: 25px;
   height: 25px;
   position: absolute;
   background-image: url(../images/video-btn.svg);
   top: 12px;
   left: 34px;
+}
+
+.reviews {
+  padding: 100px 0;
+  background: #332208;
+  color: #fefefe;
+  /* .reviews__container */
+  /* .reviews__title */
+  /* .reviews__slider */
+  /* .reviews__item */
+  /* .reviews__item-name */
+  /* .reviews__text */
+}
+
+.reviews__title {
+  font-family: "Fira Sans";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 0px 0px 70px 0px;
+}
+
+.reviews__slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.reviews__item {
+  padding: 46px 30px;
+  border: 1px solid #C5AC2D;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 270px;
+}
+
+.reviews__item-name {
+  font-family: "Fira Sans";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 0px 0px 47px 0px;
 }
