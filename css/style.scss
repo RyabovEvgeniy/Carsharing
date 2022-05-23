@@ -30,12 +30,12 @@ body {
 	background: #332208;
 	color: #fefefe;
 
-	/* .header__container */
+	// .header__container 
 
 	&__container {
 	}
 
-	/* .header__inner */
+	// .header__inner 
 
 	&__inner {
 		display: flex;
@@ -45,25 +45,25 @@ body {
 	}
 }
 .logo {
-	/* .logo__link */
+	// .logo__link 
 
 	&__link {
 	}
 }
 .menu {
-	/* .menu__list */
+	// .menu__list 
 
 	&__list {
 		display: flex;
 		column-gap: 30px;
 	}
 
-	/* .menu__item */
+	// .menu__item 
 
 	&__item {
 	}
 
-	/* .menu__list-link */
+	// .menu__list-link 
 
 	&__list-link {
 		text-transform: uppercase;
@@ -84,19 +84,19 @@ body {
 //-----------------
 
 .top {
-	/* .top__container */
+	// .top__container 
 
 	&__container {
 	}
 
-	/* .top__heading */
+	// .top__heading 
 
 	&__heading {
 		display: flex;
 		padding: 52px 0px 30px 0px;
 	}
 
-	/* .top__content */
+	// .top__content 
 
 	&__content {
 		text-align: center;
@@ -104,7 +104,7 @@ body {
 		width: 50%;
 	}
 
-	/* .top__title */
+	// .top__title 
 
 	&__title {
 		font-family: "Fira Sans", sans-serif;
@@ -115,7 +115,7 @@ body {
 		max-width: 455px;
 	}
 
-	/* .top__text */
+	// .top__text 
 
 	&__text {
 		font-size: 24px;
@@ -124,7 +124,7 @@ body {
 		max-width: 470px;
 	}
 
-	/* .top__slider */
+	// .top__slider 
 
 	&__slider {
 		width: 50%;
@@ -145,7 +145,7 @@ body {
 		}
 	}
 
-	/* .top__bottom */
+	// .top__bottom 
 
 	&__bottom {
 		display: flex;
@@ -153,7 +153,7 @@ body {
 		justify-content: space-between;
 	}
 
-	/* .top__items */
+	// .top__items 
 
 	&__items {
 		width: 50%;
@@ -161,7 +161,7 @@ body {
 		justify-content: space-around;
 	}
 
-	/* .top__item */
+	// .top__item 
 
 	&__item {
 		display: flex;
@@ -181,23 +181,23 @@ body {
 		}
 	}
 
-	/* .top__item-img */
+	// .top__item-img 
 
 	&__item-img {
 	}
 
-	/* .top__item-text */
+	// .top__item-text 
 
 	&__item-text {
 	}
 
-	/* .top__links */
+	// .top__links 
 
 	&__links {
 		padding: 0px 80px 0px 0px;
 	}
 
-	/* .top__link */
+	// .top__link 
 
 	&__link {
 		border-bottom: 1px solid #1b1818;
@@ -241,19 +241,19 @@ body {
 .rent {
 	padding: 100px 0px;
 
-	/* .rent__container */
+	// .rent__container 
 
 	&__container {
 	}
 
-	/* .rent__inner */
+	// .rent__inner 
 
 	&__inner {
 		display: flex;
 		justify-content: space-between;
 	}
 
-	/* .rent__content */
+	// .rent__content 
 
 	&__content {
 		max-width: 300px;
@@ -261,7 +261,7 @@ body {
 		// flex-direction: column;
 	}
 
-	/* .rent__title */
+	// .rent__title 
 
 	&__title {
 		font-family: "Fira Sans", sans-serif;
@@ -271,7 +271,7 @@ body {
 		margin: 0px 0px 30px 0px;
 	}
 
-	/* .rent__text */
+	// .rent__text 
 
 	&__text {
 		margin: 0px 0px 20px 0px;
@@ -280,7 +280,7 @@ body {
 		margin: 0px 0px 40px 0px;
 	}
 
-	/* .rent__item */
+	// .rent__item 
 
 	&__item {
 		max-width: 250px;
@@ -299,7 +299,7 @@ body {
 		}
 	}
 
-	/* .rent__item-num */
+	// .rent__item-num 
 
 	&__item-num {
 		font-family: "Fira Sans", sans-serif;
@@ -309,7 +309,7 @@ body {
 		opacity: 0.1;
 	}
 
-	/* .rent__item-title */
+	// .rent__item-title 
 
 	&__item-title {
 		font-family: "Fira Sans", sans-serif;
@@ -319,7 +319,7 @@ body {
 		margin-bottom: auto;
 	}
 
-	/* .rent__item-text */
+	// .rent__item-text 
 
 	&__item-text {
 	}
@@ -328,12 +328,12 @@ body {
 .benefits {
 	padding: 100px 0px;
 
-	/* .benefits__container */
+	// .benefits__container 
 
 	&__container {
 	}
 
-	/* .benefits__title */
+	// .benefits__title 
 
 	&__title {
 		font-family: "Fira Sans";
@@ -344,7 +344,7 @@ body {
 		margin: 0px 0px 48px 0px;
 	}
 
-	/* .benefits__inner */
+	// .benefits__inner 
 
 	&__inner {
 		display: flex;
@@ -352,13 +352,13 @@ body {
 		align-items: center;
 	}
 
-	/* .benefits__list */
+	// .benefits__list 
 
 	&__list {
 		max-width: 300px;
 	}
 
-	/* .benefits__list-item */
+	// .benefits__list-item 
 
 	&__list-item {
 		padding: 0px 26px 0px 0px;
@@ -394,19 +394,19 @@ body {
 		}
 	}
 
-	/* .benefits__images */
+	// .benefits__images 
 
 	&__images {
 	}
 
-	/* .benefits__content */
+	// .benefits__content 
 
 	&__content {
 		max-width: 300px;
 		text-align: right;
 	}
 
-	/* .benefits__text */
+	// .benefits__text 
 
 	&__text {
 		margin: 0px 0px 30px 0px;
@@ -449,12 +449,12 @@ body {
 	background: #332208;
 	color: #fefefe;
 
-	/* .reviews__container */
+	// .reviews__container 
 
 	&__container {
 	}
 
-	/* .reviews__title */
+	// .reviews__title 
 
 	&__title {
 		font-family: "Fira Sans";
@@ -464,33 +464,55 @@ body {
 		margin: 0px 0px 70px 0px;
 	}
 
-	/* .reviews__slider */
+	// .reviews__slider 
 
 	&__slider {
-		display: flex;
-		justify-content: space-between;
+		button {
+			margin: 0px 5px;
+		}
+		.slick-dots {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 35px 0px 0px 0px;
+			button {
+				background: #c5ac2d;
+				line-height: 12px;
+			}
+		}
+		
 	}
 
-	/* .reviews__item */
+	// .reviews__item 
 
 	&__item {
-		padding: 46px 30px;
-		border: 1px solid #C5AC2D;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-max-width: 270px;
+		padding: 45px 30px;
+		border: 1px solid #c5ac2d;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		max-width: 270px;
+		min-height: 300px;		
+		flex-direction: column;
+		justify-content: space-between;
+		text-align: center;
+		&:not(:last-child) {
+			margin: 0px 30px 0px 0px;
+		}
+		.slick-initialized & {
+			display: flex;
+		}
 	}
 
-	/* .reviews__item-name */
+	// .reviews__item-name 
 
 	&__item-name {
 		font-family: "Fira Sans";
 		font-weight: 500;
 		font-size: 24px;
 		line-height: 1.2;
-		margin: 0px 0px 47px 0px;
+		// margin: 0px 0px 47px 0px;
 	}
 
-	/* .reviews__text */
+	// .reviews__text 
 
 	&__text {
 	}
