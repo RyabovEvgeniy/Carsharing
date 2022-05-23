@@ -51,7 +51,7 @@ html {
 /* ================== */
 body {
   font-family: "Roboto Condensed", sans-serif;
-  background: #FEFEFE;
+  background: #fefefe;
   color: #1b1818;
   font-size: 16px;
   line-height: 1.18;
@@ -393,4 +393,123 @@ body {
   font-size: 18px;
   line-height: 1.22;
   margin-bottom: auto;
+}
+
+.benefits {
+  padding: 100px 0px;
+  /* .benefits__container */
+  /* .benefits__title */
+  /* .benefits__inner */
+  /* .benefits__list */
+  /* .benefits__list-item */
+  /* .benefits__images */
+  /* .benefits__content */
+  /* .benefits__text */
+}
+
+.benefits__title {
+  font-family: "Fira Sans";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin: 0px 0px 48px 0px;
+}
+
+.benefits__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.benefits__list {
+  max-width: 300px;
+}
+
+.benefits__list-item {
+  padding: 0px 26px 0px 0px;
+  position: relative;
+  text-align: right;
+}
+
+.benefits__list-item:not(:last-child) {
+  margin: 0px 0px 27px 0px;
+}
+
+.benefits__list-item::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  right: 0;
+  top: 2px;
+  background-color: #000;
+}
+
+.benefits__list-item:nth-child(1), .benefits__list-item:nth-child(7) {
+  margin-right: 13px;
+}
+
+.benefits__list-item:nth-child(2), .benefits__list-item:nth-child(6) {
+  margin-right: 60px;
+}
+
+.benefits__list-item:nth-child(3), .benefits__list-item:nth-child(5) {
+  margin-right: 112px;
+}
+
+.benefits__list-item:nth-child(4) {
+  margin-right: 158px;
+}
+
+.benefits__content {
+  max-width: 300px;
+  text-align: right;
+}
+
+.benefits__text {
+  margin: 0px 0px 30px 0px;
+}
+
+.benefits__text + .benefits__text {
+  max-width: 267px;
+  margin-left: auto;
+}
+
+.video-popup {
+  display: inline-block;
+  background: #c5ac2d;
+  padding: 6px 34px 6px 64px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fefefe;
+  max-width: 200px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  border: 1px solid transparent;
+  position: relative;
+}
+
+.video-popup:hover {
+  color: #c5ac2d;
+  background: #fefefe;
+  border: 1px solid #c5ac2d;
+}
+
+.video-popup::after {
+  content: '';
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background-image: url(../images/video-btn.svg);
+  top: 12px;
+  left: 34px;
 }
