@@ -80,6 +80,11 @@ body {
 .phone {
 	font-size: 18px;
 	line-height: 1.16;
+	transition: all 0.5s;
+		cursor: pointer;
+		&:hover {
+			transform: scale(1.15);
+		}
 }
 //-----------------
 
@@ -543,8 +548,6 @@ body {
 	&__form {
 		max-width: 416px;
 		margin: 0 auto;
-		// display: flex;
-		// flex-direction: column;
 	}
 
 	// .feedback__tittle
@@ -606,3 +609,49 @@ body {
 		}
 	}
 }
+
+.footer {
+	background: #332208;
+	color: #fefefe;
+	padding: 75px 0px 24px 0px;	
+
+	// .footer__container
+
+	&__container {
+	}
+
+	// .footer__top
+
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0px 0px 21px 0px;
+	}
+
+	// .footer__social
+
+	&__social {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		column-gap: 30px;
+	}
+
+	// .footer__social-item
+
+	&__social-item {
+		transition: all 0.5s;
+		cursor: pointer;
+		&:hover {
+			transform: scale(1.25);
+		}
+	}
+
+	// .footer__social-link
+
+	&__social-link {
+		
+	}
+}
+
