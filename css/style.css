@@ -538,3 +538,104 @@ body {
   font-size: 24px;
   line-height: 1.2;
 }
+
+.feedback {
+  padding: 100px 0px;
+}
+
+.feedback__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feedback__images {
+  max-width: 50%;
+}
+
+.feedback__form {
+  max-width: 416px;
+  margin: 0 auto;
+}
+
+.feedback__tittle {
+  font-family: "Fira Sans";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 0px 0px 5px 0px;
+}
+
+.feedback__text {
+  margin: 0px 0px 30px 0px;
+}
+
+.feedback__input {
+  padding: 20px 10px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  font-family: "Roboto Condensed", sans-serif;
+  background: #fefefe;
+  color: #1b1818;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.feedback__input::-webkit-input-placeholder {
+  font-family: "Roboto Condensed", sans-serif;
+  background: #fefefe;
+  color: #1b1818;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.feedback__input:-ms-input-placeholder {
+  font-family: "Roboto Condensed", sans-serif;
+  background: #fefefe;
+  color: #1b1818;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.feedback__input::-ms-input-placeholder {
+  font-family: "Roboto Condensed", sans-serif;
+  background: #fefefe;
+  color: #1b1818;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.feedback__input::placeholder {
+  font-family: "Roboto Condensed", sans-serif;
+  background: #fefefe;
+  color: #1b1818;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.feedback__button {
+  text-transform: uppercase;
+  color: #fefefe;
+  background: #c5ac2d;
+  display: inline-block;
+  padding: 16px 36px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  line-height: 1.18;
+  margin: 50px 0px 0px 0px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.feedback__button:hover {
+  color: #c5ac2d;
+  background: #fefefe;
+  border: 1px solid #c5ac2d;
+}
