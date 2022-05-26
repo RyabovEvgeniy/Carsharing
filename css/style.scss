@@ -44,14 +44,24 @@ body {
 		align-items: center;
 		min-height: 100px;
 	}
+	&__burger {
+		display: none;
+	}
 }
 .logo {
+	flex: 0 0 60px;
+	img {
+		max-width: 100%;
+	}
+
 	// .logo__link
 
 	&__link {
 	}
 }
+
 .menu {
+
 	// .menu__list
 
 	&__list {

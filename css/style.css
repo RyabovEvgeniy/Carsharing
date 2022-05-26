@@ -99,6 +99,20 @@ body {
   min-height: 100px;
 }
 
+.header__burger {
+  display: none;
+}
+
+.logo {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60px;
+          flex: 0 0 60px;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
 .menu__list {
   display: -webkit-box;
   display: -ms-flexbox;
