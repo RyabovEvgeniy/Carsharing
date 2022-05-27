@@ -32,7 +32,7 @@
 			position: relative;
 			width: 30px;
 			height: 20px;
-			z-index: 3;
+			z-index: 4;
 			&.active::before {
 				transform: rotate(45deg);
 				top: 9px;
@@ -100,9 +100,12 @@
 		&__inner {
 			min-height: 60px;
 		}
+		&::before {
+			z-index: 4;
+		}
 	}
-	.phone {
-		z-index: 3;
+	.phone, .logo {
+		z-index: 4;
 	}	
 }
 

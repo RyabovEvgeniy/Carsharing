@@ -27,16 +27,15 @@ body {
 	padding: 0px 15px;
 }
 
-
 .header {
 	position: fixed;
 	width: 100%;
 	top: 0;
 	left: 0;
-	z-index: 50;	
+	z-index: 50;
 	color: #fefefe;
 	&::before {
-		content: '';
+		content: "";
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -79,6 +78,8 @@ body {
 }
 
 .menu {
+	position: relative;
+	z-index: 3;
 
 	// .menu__list
 
@@ -110,10 +111,12 @@ body {
 	font-size: 18px;
 	line-height: 1.16;
 	transition: all 0.5s;
-		cursor: pointer;
-		&:hover {
-			transform: scale(1.15);
-		}
+	cursor: pointer;
+	position: relative;
+	z-index: 3;
+	&:hover {
+		transform: scale(1.15);
+	}
 }
 //-----------------
 
@@ -642,7 +645,7 @@ body {
 .footer {
 	background: #332208;
 	color: #fefefe;
-	padding: 75px 0px 24px 0px;	
+	padding: 75px 0px 24px 0px;
 
 	// .footer__container
 
@@ -680,7 +683,5 @@ body {
 	// .footer__social-link
 
 	&__social-link {
-		
 	}
 }
-

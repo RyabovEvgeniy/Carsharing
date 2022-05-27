@@ -92,7 +92,7 @@ body {
 }
 
 .header::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -132,6 +132,11 @@ body {
   max-width: 100%;
 }
 
+.menu {
+  position: relative;
+  z-index: 3;
+}
+
 .menu__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -162,6 +167,8 @@ body {
   -o-transition: all 0.5s;
   transition: all 0.5s;
   cursor: pointer;
+  position: relative;
+  z-index: 3;
 }
 
 .phone:hover {
