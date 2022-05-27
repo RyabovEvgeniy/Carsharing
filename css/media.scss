@@ -7,9 +7,14 @@
 //@media (max-width: 767.98px) {}
 
 // №1
-@media (max-width: 1230px) {
+@media (max-width: 1220px) {
 	[class*="__container"] {
 		max-width: 970px;
+	}
+	.top {
+		&__content {
+			// width: 30%;
+		}
 	}
 }
 // №2
