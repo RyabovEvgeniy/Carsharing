@@ -82,6 +82,7 @@
 			height: 100%;
 			background-color: #5e5373;
 			transition: all 0.3s ease 0s;
+			overflow: auto;
 			&.menu {
 				padding: 70px 0px 0px 15px;
 				.menu__list {

@@ -86,6 +86,7 @@
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+    overflow: auto;
   }
   .header__menu.menu {
     padding: 70px 0px 0px 15px;
