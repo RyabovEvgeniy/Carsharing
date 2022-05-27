@@ -14,6 +14,9 @@
   [class*="__container"] {
     max-width: none;
   }
+  body.lock {
+    overflow: hidden;
+  }
   .header__burger {
     display: block;
     position: relative;
