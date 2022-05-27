@@ -33,6 +33,7 @@
 			width: 30px;
 			height: 20px;
 			z-index: 4;
+			order: 1;
 			&.active::before {
 				transform: rotate(45deg);
 				top: 9px;
@@ -84,11 +85,12 @@
 			transition: all 0.3s ease 0s;
 			overflow: auto;
 			&.menu {
-				padding: 70px 0px 0px 15px;
+				padding: 80px 0px 0px 0px;
 				.menu__list {
 					display: block;
+					text-align: center;
 					.menu__item {
-						margin: 0px 0px 10px 0px;
+						margin: 0px 0px 40px 0px;
 					}
 				}
 			}
