@@ -439,7 +439,7 @@ body {
 	// .benefits__content
 
 	&__content {
-		max-width: 300px;
+		width: 300px;
 		text-align: right;
 	}
 
@@ -450,7 +450,7 @@ body {
 	}
 
 	&__text + &__text {
-		max-width: 267px;
+		width: 267px;
 		margin-left: auto;
 	}
 }

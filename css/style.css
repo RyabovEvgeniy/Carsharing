@@ -475,7 +475,7 @@ body {
 }
 
 .benefits__content {
-  max-width: 300px;
+  width: 300px;
   text-align: right;
 }
 
@@ -484,7 +484,7 @@ body {
 }
 
 .benefits__text + .benefits__text {
-  max-width: 267px;
+  width: 267px;
   margin-left: auto;
 }
 
