@@ -26,6 +26,17 @@
 			padding: 50px 0px 0px 0px;
 		}
 	}
+	.rent {
+		&__inner {
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+		&__content {
+			width: 100%;
+			text-align: center;
+			margin: 0px 0px 30px 0px;
+		}
+	}
 }
 // №2
 @media (max-width: 991.98px) {
@@ -35,6 +46,11 @@
 	.top {
 		&__slider-text {
 			padding: 0px 50px 0px 0px;
+		}
+	}
+	.rent {
+		&__item {
+			margin: 30px;
 		}
 	}
 }
@@ -143,6 +159,18 @@
 		}
 	}	
 }
+@media (max-width: 650px) {
+	.rent {
+		&__item {
+			width: 100%;
+			min-height: 245px;
+			&-title {
+				margin: 0px 0px 20px 0px;
+			}
+		}
+	}
+
+}
 // №4
 @media (max-width: 509.98px) {
 	.top {
@@ -152,6 +180,11 @@
 		}
 		&__item {
 			width: 100%;			
+		}
+	}
+	.rent {
+		&__item {
+		margin: 30px 0;
 		}
 	}
 }
