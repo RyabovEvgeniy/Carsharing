@@ -88,7 +88,13 @@
 			display: none;
 		}
 	}
-
+	.footer,
+	.feedback,
+	.reviews,
+	.benefits,
+	.rent {
+		padding: 50px 0;
+	}
 }
 // №3
 @media (max-width: 767.98px) {
