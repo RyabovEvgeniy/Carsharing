@@ -62,6 +62,9 @@
   .feedback__images {
     display: none;
   }
+  .footer .menu {
+    display: none;
+  }
 }
 
 @media (max-width: 767.98px) {
