@@ -21,9 +21,26 @@ $(function () {
 		arrows: false,
 		dots: true,
 		slidesToShow: 4,
-		slidesToScroll: 2,
-		autoplay: true,
-		autoplaySpeed: 3000
+		slidesToScroll: 1,
+		// autoplay: true,
+		// autoplaySpeed: 3000,
+		responsive: [
+			{
+				breakpoint: 1220,
+				settings: {
+					slidesToShow: 3,
+				}
+			},
+			{
+				breakpoint: 991,
+				settings: {
+					slidesToShow: 2,
+				}
+			}
+			// You can unslick at a given breakpoint now by adding:
+			// settings: "unslick"
+			// instead of a settings object
+		]
 	});
 });
 
