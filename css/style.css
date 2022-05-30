@@ -573,11 +573,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   text-align: center;
-  margin: 0px 30px 0px 0px;
-}
-
-.reviews__item:not(:last-child) {
-  margin: 0px 30px 0px 0px;
+  margin: 0px 15px 0px 15px;
 }
 
 .slick-initialized .reviews__item {
